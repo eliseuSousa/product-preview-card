@@ -1,0 +1,95 @@
+body {
+  min-height: 100vh;
+  background: var(--cream);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main.card {
+  display: flex;
+  align-items: center;
+  border-radius: .8rem;
+  overflow: hidden;
+} 
+  img.banner {
+    height: 40rem;
+  }
+
+  div.informacoes {
+    background: var(--white);
+    padding: 2.8rem;
+    width: 28rem;
+    height: 40rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+    span.tag {
+      color: var(--dark-grayish-blue);
+      font-size: 1.1rem;
+      font-weight: 500;
+      letter-spacing: .4rem;
+      text-transform: uppercase;
+    }
+
+    h1.titulo {
+      color: var(--very-dark-blue);
+      font-family: 'Fraunces', serif;
+      font-size: 2.8rem;
+      font-weight: 700;
+      line-height: 2.8rem;
+    }
+
+    p.descricao {
+      color: var(--dark-grayish-blue);
+      font-size: 1.2rem;
+      font-weight: 500;
+      line-height: 1.8rem;
+    }
+
+    div.preco {
+      display: flex;
+      align-items: center;
+    }
+    
+      p.preco-atual {
+        color: var(--dark-cyan);
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+        font-size: 2.8rem;
+      }
+
+      p.preco-antigo {
+        color: var(--dark-grayish-blue);
+        font-size: 1.2rem;
+        font-weight: 500;
+        text-decoration: line-through;
+        margin-left: 2.6rem;
+      }
+    
+    button.add-produto {
+      align-items: center;
+      background: var(--dark-cyan);
+      border: none;
+      border-radius: .8rem;
+      color: var(--white);
+      display: flex;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      justify-content: center;
+      transition: all .3s;
+      padding: 1.4rem;
+      width: 100%;
+    }
+
+    button.add-produto:hover {
+      cursor: pointer;
+      background: var(--very-dark-blue);
+    }
+
+      img.icon-cart {
+        margin-right: 1.2rem;
+      }
