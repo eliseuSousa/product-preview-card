@@ -119,4 +119,9 @@ main.card {
       span.tag {
         font-size: 1.4rem;
       }
+
+      h1.titulo {
+        font-size: 3rem;
+        line-height: 3.2rem;
+      }
 }
