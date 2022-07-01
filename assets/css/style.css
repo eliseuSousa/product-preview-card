@@ -11,9 +11,14 @@ main.card {
   align-items: center;
   border-radius: .8rem;
   overflow: hidden;
-} 
-  img.banner {
+}
+  div.container {
     height: 40rem;
+    width: 28rem;
+    background-image: url('../images/image-product-desktop.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 
   div.informacoes {
@@ -93,3 +98,25 @@ main.card {
       img.icon-cart {
         margin-right: 1.2rem;
       }
+
+@media screen and (max-width: 425px){
+  main.card {
+    flex-direction: column;
+    margin: 3.6rem 0;
+  } 
+
+    div.container {
+      width: 36rem;
+      height: 30rem;
+      background-image: url('../images/image-product-mobile.jpg');
+    }
+
+    div.informacoes {
+      width: 36rem;
+      height: 34rem;
+    }
+
+      span.tag {
+        font-size: 1.4rem;
+      }
+}
